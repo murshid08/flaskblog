@@ -1,14 +1,22 @@
 body {
-    background: #070707;
-    color: #050505;
+    background: #b64a92;
+    color: #9041a0;
   }
   
-  h1, h2, h3, h4, h5, h6 {
-    color: #ca1212;
+  h1{
+    color: #21a032;
+  }
+  h2, h3, h4, h5 {
+    font-family: 'Dancing Script', cursive;
+  }
+  h6{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(194, 194, 106);
   }
   
   .bg-steel {
-    background-color: #070404;
+    background-color: #921f79;
+    font-family: 'Fuggles', cursive;
   }
   
   .site-header .navbar-nav .nav-link {
@@ -24,7 +32,7 @@ body {
   }
   
   .content-section {
-    background: #ffffff;
+    background: #fccdf1;
     padding: 10px 20px;
     border: 1px solid #dddddd;
     border-radius: 3px;
@@ -32,7 +40,8 @@ body {
   }
   
   .article-title {
-    color: #020202;
+    color: #b41565;
+    font-family: 'Inconsolata', monospace;
   }
   
   a.article-title:hover {
@@ -79,5 +88,17 @@ body {
   }
   
 .container-fluid {
-  background-color: black;
+  background-color: rgb(173, 29, 130);
+  font-family: 'Qahiri', sans-serif;
+
+}
+a{
+  color: green;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: 'Inconsolata', monospace;
+}
+p{
+  font-family: 'Indie Flower', cursive;
+  color: black;
 }
